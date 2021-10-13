@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+          PROJECT 2
+          Author:
+          Date:
+
+          Filename:  contact.html
+         -->
+
+   <title>Project 2</title>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+  <img src="images/gp_logo.png" alt="Golden Pulp" />
+</header>
+
+<nav>
+  <ul>
+      <li><a  class="brand" href="index.html">GoldenPulps</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Comic Books</a></li>
+      <li><a href="sneakpeek.html">Sneak Peek</a></li>
+      <li><a href="#">Artists</a></li>
+      <li><a href="#">Writers</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<main>
+   <section>
+      <h1>Contact Us</h1>
+      <form id="multipleForm" method="post"
+            action="http://itins3.madisoncollege.edu/echo.php">
+
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" placeholder="First Name" name="firstName" required>
+              <br>
+
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" placeholder="Last Name" name="lastName" required>
+              <br>
+
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Example@Example.com" name="email" required />
+              <br>
+
+              <label for="phoneNumber">Phone Number</label>
+              <input type="tel" id="phoneNumber" placeholder="999-999-999" name="phoneNumber" >
+              <br>
+
+              <label for="phoneType">Phone Type</label><br />
+              <input type="radio" id="phoneType" name="phoneType" value="Home"> Home<br />
+              <input type="radio" name="phoneType" value="Cell"> Cell<br />
+              <input type="radio" name="phoneType" value="Work"> Work
+              <br>
+
+              <label for="infoRequest">Information Requesting</label><br />
+              <input type="checkbox" id="infoRequest" name="Collections" value="Collections"> Collections<br />
+              <input type="checkbox" name="Trade-Ins" value="Trade-Ins"> Trade-Ins<br />
+              <input type="checkbox" name="AddToMailing" value="Add To Mailing"> Add To Mailing
+              <br>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+      </form>
+
+   </section>
+</main>
+
+<footer>
+  <p>Golden Pulps: A Comic Book Resource for Collectors and Fans</p>
+</footer>
+
+</body>
+</html>

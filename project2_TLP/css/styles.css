@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c1f9c6;
+    color: black;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+}
+
+.brand {
+    color: gold;
+    background-color: transparent;
+    font-size: 1.25rem;
+}
+
+header {
+    background-image: url("../images/gp_back1.png");
+    background-size: auto;
+}
+
+main {
+    background-color: white;
+    color: black;
+}
+
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-color: #343a40;
+    color: rgba(255,255,255,.5);
+}
+
+nav a {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #343a40;
+}
+
+footer {
+    color: #fff;
+    background-color: black;
+    text-align: center;
+}
